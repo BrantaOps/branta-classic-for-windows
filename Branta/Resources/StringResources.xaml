@@ -1,0 +1,125 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- General -->
+    <system:String x:Key="Loading">Loading...</system:String>
+    <system:String x:Key="Help">Help</system:String>
+
+    <!-- Navigation Items -->
+    <system:String x:Key="NavigationDashboard">Wallets</system:String>
+    <system:String x:Key="NavigationClipboard">Clipboard</system:String>
+    <system:String x:Key="NavigationMyKeys">My Keys</system:String>
+    <system:String x:Key="NavigationSettings">Settings</system:String>
+
+    
+    <!-- Notify Icon Menu -->
+    <system:String x:Key="NotifyIcon_Quit">Quit</system:String>
+    <system:String x:Key="NotifyIcon_UpdateAvailable">Update Available</system:String>
+    
+    <!-- Wallet Verification View -->
+    <system:String x:Key="WalletColumnHeader">Wallet</system:String>
+    <system:String x:Key="LastScannedHeader">Last Scanned</system:String>
+    <system:String x:Key="NetworkActivityHeader">Network Activity</system:String>
+    <system:String x:Key="NetworkActivityText">View</system:String>
+
+    <!-- Clipboard Guardian View -->
+    <system:String x:Key="Clipboard">Clipboard</system:String>
+    <system:String x:Key="ClipboardGuardian_None">No Bitcoin/Nostr content detected.</system:String>
+
+    <system:String x:Key="ClipboardGuardian_BitcoinAddressName">Bitcoin Address</system:String>
+    <system:String x:Key="ClipboardGuardian_BitcoinAddressTitle">New Address in Clipboard.</system:String>
+    <system:String x:Key="ClipboardGuardian_BitcoinAddressMessage">Bitcoin Address detected.</system:String>
+
+    <system:String x:Key="ClipboardGuardian_SeedPhraseName">Seed Phrase Detected</system:String>
+    <system:String x:Key="ClipboardGuardian_SeedPhraseTitle">Seed Phrase in clipboard detected.</system:String>
+    <system:String x:Key="ClipboardGuardian_SeedPhraseMessage">Never share your seed phrase with anyone. Your seed phrase IS your money.</system:String>
+
+    <system:String x:Key="ClipboardGuardian_BitcoinPublicKeyName">Bitcoin Public Key Detected</system:String>
+    <system:String x:Key="ClipboardGuardian_BitcoinPublicKeyTitle">Bitcoin Extended Public Key in Clipboard.</system:String>
+    <system:String x:Key="ClipboardGuardian_BitcoinPublicKeyMessage">Sharing your XPUB can lead to loss of privacy.</system:String>
+
+    <system:String x:Key="ClipboardGuardian_BitcoinPrivateKeyName">Bitcoin Private Key Detected</system:String>
+    <system:String x:Key="ClipboardGuardian_BitcoinPrivateKeyTitle">Bitcoin Private Key in Clipboard.</system:String>
+    <system:String x:Key="ClipboardGuardian_BitcoinPrivateKeyMessage">Never share your private key with others.</system:String>
+
+    <system:String x:Key="ClipboardGuardian_NostrPublicKeyName">Nostr Public Key Detected</system:String>
+    <system:String x:Key="ClipboardGuardian_NostrPublicKeyTitle">New Nostr Public Key in Clipboard.</system:String>
+
+    <system:String x:Key="ClipboardGuardian_NostrPrivateKeyName">Nostr Private Key Detected</system:String>
+    <system:String x:Key="ClipboardGuardian_NostrPrivateKeyTitle">New Nostr Private Key in Clipboard.</system:String>
+    <system:String x:Key="ClipboardGuardian_NostrPrivateKeyMessage">Never share your private key with others.</system:String>
+
+    <system:String x:Key="ClipboardGuardian_AddressDetectedFrom"> Address Detected From: {0}</system:String>
+
+    <!-- Installer Verification View -->
+    <system:String x:Key="BrowseFiles">Browse Files</system:String>
+    <system:String x:Key="DragAndDropText">Drag .exe files here before installing new wallets to verify authenticity</system:String>
+
+    <!-- Wallet Details Window -->
+    <system:String x:Key="Verified">Verified</system:String>
+    <system:String x:Key="VerifiedMessage">Branta verified the validity of {0}.</system:String>
+
+    <system:String x:Key="NotVerified">Not Verified</system:String>
+    <system:String x:Key="NotVerifiedMessage">No Match Found. This could be for a number of reasons. Read more below.</system:String>
+
+    <system:String x:Key="VersionTooNew">Version Too New</system:String>
+    <system:String x:Key="VersionTooNewMessage">Installed version is too new. Try Refreshing the Hashes from Last Sync in the settings screen.</system:String>
+
+    <system:String x:Key="VersionTooOld">Version Too Old</system:String>
+    <system:String x:Key="VersionTooOldMessage">An outdated version of {0} was detected. Branta can verify {0} once you update the wallet.</system:String>
+
+    <system:String x:Key="VersionNotSupported">Version Not Supported</system:String>
+    <system:String x:Key="VersionNotSupportedMessage">Version not supported.</system:String>
+
+    <system:String x:Key="NotFound">Not Found</system:String>
+    <system:String x:Key="NotFoundMessage">Branta could not locate {0} installation._NL_Either the wallet is not installed, or is installed in a different directory unknown to Branta.</system:String>
+
+    <system:String x:Key="Installing">Installing</system:String>
+    <system:String x:Key="InstallingMessage">Branta will verify the wallet after installation completes.</system:String>
+
+    <system:String x:Key="BrantaError">Runtime Error</system:String>
+    <system:String x:Key="BrantaErrorMessage">An Exception was thrown during wallet verification.</system:String>
+
+    <!-- Settings View -->
+    <system:String x:Key="ClipboardNotificationsTitle">Clipboard Notifications</system:String>
+    <system:String x:Key="BitcoinAddressesEnabledText">Notify for Bitcoin Addresses</system:String>
+    <system:String x:Key="SeedPhraseEnabledText">Notify for Seed Phrase</system:String>
+    <system:String x:Key="ExtendedPublicKeyEnabledText">Notify for Extended Public Key</system:String>
+    <system:String x:Key="PrivateKeyEnabledText">Notify for Private Key</system:String>
+    <system:String x:Key="NostrPublicKeyEnabledText">Notify for Nostr Public Key</system:String>
+    <system:String x:Key="NostrPrivateKeyEnabledText">Notify for Nostr Private Key</system:String>
+
+    <system:String x:Key="WalletVerificationTitle">Wallet Verification</system:String>
+    <system:String x:Key="VerifyEveryText">Verify Every</system:String>
+    <system:String x:Key="LaunchingWalletEnabledText">Notify Status Upon Launching Wallet</system:String>
+    <system:String x:Key="WalletStatusChangeEnabledText">Notify Status Upon Status Change</system:String>
+
+    <system:String x:Key="LastUpdatedTitle">Last Sync</system:String>
+    <system:String x:Key="RefreshNow">Refresh Now</system:String>
+    <system:String x:Key="Save">Save</system:String>
+
+    <!-- Extended Keys Manager View -->
+    <system:String x:Key="ExtendedKeysTitle">My Keys</system:String>
+
+    <!--Installer Notifications -->
+    <system:String x:Key="InstallerValid">Installer '{0}' is valid.</system:String>
+    <system:String x:Key="InstallerInvalid">Installer '{0}' is not valid or unsupported.</system:String>
+    <system:String x:Key="InstallerHashesLoading">Installer hashes are still loading.</system:String>
+
+    <!-- Other Notifications -->
+    <system:String x:Key="UpdateApp">Branta version {0} is available.</system:String>
+    <system:String x:Key="FocusMessage">{0} {1} is Running. Status: {2}.</system:String>
+    
+    <!-- Message Box -->
+    <system:String x:Key="MessageBox_ExtendedKey_ConfirmDeleteTitle">Confirm Delete</system:String>
+    <system:String x:Key="MessageBox_ExtendedKey_ConfirmDeleteMessage">Are you sure you want to delete '{0}' xpub?</system:String>
+    
+    <!-- Validation -->
+    <system:String x:Key="Validation_ExtendedKey_Name_Required">Name is required.</system:String>
+    <system:String x:Key="Validation_ExtendedKey_Name_Unique">Name must be unique.</system:String>
+
+    <system:String x:Key="Validation_ExtendedKey_Value_Required">Name is required.</system:String>
+    <system:String x:Key="Validation_ExtendedKey_Value_Valid">xpub format is invalid.</system:String>
+
+</ResourceDictionary> 
